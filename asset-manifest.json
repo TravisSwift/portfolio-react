@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.d1d464db.css",
+    "main.js": "/portfolio-react/static/js/main.3642b784.js",
+    "static/js/787.c400a809.chunk.js": "/portfolio-react/static/js/787.c400a809.chunk.js",
+    "static/media/travisps.png": "/portfolio-react/static/media/travisps.c21803f10f1275cd9e28.png",
+    "static/media/travisps2.png": "/portfolio-react/static/media/travisps2.20973813e6f30819d789.png",
+    "static/media/travisps4.png": "/portfolio-react/static/media/travisps4.0dc6a15ca650b39e9b75.png",
+    "static/media/TravisSwiftResume.pdf": "/portfolio-react/static/media/TravisSwiftResume.4052e49195c831d7f6e6.pdf",
+    "static/media/cover-image.jpg": "/portfolio-react/static/media/cover-image.318b61c81093334f37ce.jpg",
+    "static/media/1.jpg": "/portfolio-react/static/media/1.58ac9c75100d72e54e00.jpg",
+    "static/media/0.jpg": "/portfolio-react/static/media/0.4470cf0ae24535ec95d9.jpg",
+    "static/media/3.jpg": "/portfolio-react/static/media/3.40c83a29c24a6af64ef7.jpg",
+    "static/media/2.jpg": "/portfolio-react/static/media/2.5a8e4d8b5a63e64b0cfb.jpg",
+    "index.html": "/portfolio-react/index.html",
+    "main.d1d464db.css.map": "/portfolio-react/static/css/main.d1d464db.css.map",
+    "main.3642b784.js.map": "/portfolio-react/static/js/main.3642b784.js.map",
+    "787.c400a809.chunk.js.map": "/portfolio-react/static/js/787.c400a809.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1d464db.css",
+    "static/js/main.3642b784.js"
+  ]
+}
