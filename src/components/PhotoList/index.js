@@ -11,23 +11,31 @@ const PhotoList = ({ category }) => {
     {
       name: 'Project Voyager',
       category: 'gallery',
-      description: 'Space Enthuisast website using HTML, CSS, Javascript, and Boostrap ',
-   
+      description: 'Space Enthuisast website using HTML, CSS, Javascript, and Bootstrap',
+      link: "https://travisswift.github.io/Project-1-Team-Voyager/"
+    
     },
+
     {
       name: 'AD&D Charcter Generator',
       category: 'gallery',
       description: 'A character generator for Advanced Dungeons and Dragons Fifth Edition',
+      link: "https://secure-temple-11568.herokuapp.com/"
+    },
+
+
+    {
+      name: 'Portfolio made with Tailwind CSS',
+      category: 'gallery',
+      description: 'A portfiolio website using Tailwind CSS',
+      link: "https://travisswift.github.io/tailwind-portfolio/index.html" 
+      
     },
     {
       name: 'Awesome Note Taker App',
       category: 'gallery',
       description: 'A simple note taking app',
-    },
-    {
-      name: 'Portfolio made with Tailwind CSS',
-      category: 'gallery',
-      description: 'A portfiolio website using Tailwind CSS',
+      link: "https://salty-shelf-71006.herokuapp.com/notes"
     },
     
   ]);
@@ -39,6 +47,7 @@ const PhotoList = ({ category }) => {
     <div>
       <div className="flex-row">
         {currentPhotos.map((image, i) => (
+          <a href={image.link}> 
           <img
             src={require(`../../assets/small/${i}.jpg`)}
             alt={image.name}
@@ -46,6 +55,9 @@ const PhotoList = ({ category }) => {
             
             key={image.name}
           />
+
+          {/* <p>{image.description}</p> */}
+          </a>
         ))}
       </div>
     </div>
