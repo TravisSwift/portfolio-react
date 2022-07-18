@@ -25,24 +25,29 @@ const PhotoList = ({ category }) => {
 
 
     {
-      name: 'Portfolio made with Tailwind CSS',
+      name: 'Note Taker App',
       category: 'gallery',
-      description: 'A portfiolio website using Tailwind CSS',
-      link: "https://travisswift.github.io/tailwind-portfolio/index.html" 
+      description: 'A simple note taking app',
+      link: "https://salty-shelf-71006.herokuapp.com/notes" 
       
     },
     {
-      name: 'Awesome Note Taker App',
-      category: 'gallery',
-      description: 'A simple note taking app',
-      link: "https://salty-shelf-71006.herokuapp.com/notes"
-    {
-      name: 'Super Awesome Video Game Ecommerce Store',
-      category: 'gallery',
-      description: 'A MERN Fullstack Ecommerce Store',
-      link: "https://safe-badlands-22208.herokuapp.com/"
- 
+
+    name: 'Super Awesome Video Game Ecommerce Store',
+    category: 'gallery',
+    description: 'A MERN Fullstack Ecommerce Store',
+    link: "https://safe-badlands-22208.herokuapp.com/"
     },
+
+    // {
+      // name: 'Portfolio made with Tailwind CSS',
+      // category: 'gallery',
+      // description: 'A portfiolio website using Tailwind CSS',
+      // link: "https://travisswift.github.io/tailwind-portfolio/index.html" 
+      
+    // },
+
+    
     
   ]);
 
