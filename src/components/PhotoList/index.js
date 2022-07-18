@@ -36,6 +36,12 @@ const PhotoList = ({ category }) => {
       category: 'gallery',
       description: 'A simple note taking app',
       link: "https://salty-shelf-71006.herokuapp.com/notes"
+    {
+      name: 'Super Awesome Video Game Ecommerce Store',
+      category: 'gallery',
+      description: 'A MERN Fullstack Ecommerce Store',
+      link: "https://safe-badlands-22208.herokuapp.com/"
+ 
     },
     
   ]);
